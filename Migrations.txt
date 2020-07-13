@@ -1,0 +1,10 @@
+Run Install-Package EntityFramework-IncludePrerelease
+
+Create DbContext for the Model class
+then 
+
+enable-migrations
+
+add-migration InitialModel
+
+update-database
